@@ -3059,14 +3059,14 @@
     scmp "^2.1.0"
     yup "^0.32.11"
 
-"@tinacms/graphql@2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-2.0.5.tgz#03ccfd94970a9335ebb07e73d0e34539441b7e4b"
-  integrity sha512-V6sz/L6wB+T8/tGmk3bxBlzFy6SNPRVAD0egVcnPAHjwCjkaq1tvuPKbsI6nHYbmXGx8D77gYrVkd8V5try9ug==
+"@tinacms/graphql@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-2.0.6.tgz#43f31381e3c742a7205dcd233ce62e17a5a28022"
+  integrity sha512-2YTpHNq0TeoLsW/+Pedk0bB/3hK5MjqaUCSliBTOURVRKfzCu4kRP7uuOsX3aGRYCaEu/LkHiwgCldllxEpQxQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
-    "@tinacms/mdx" "2.0.2"
-    "@tinacms/schema-tools" "2.2.0"
+    "@tinacms/mdx" "2.0.3"
+    "@tinacms/schema-tools" "2.3.0"
     abstract-level "^1.0.4"
     date-fns "^2.30.0"
     es-toolkit "^1.42.0"
@@ -3121,12 +3121,12 @@
     uvu "0.5.6"
     vfile-message "3.1.4"
 
-"@tinacms/mdx@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tinacms/mdx/-/mdx-2.0.2.tgz#bc7dd27eb020a22b1ac922dbfc551382f9cd9caa"
-  integrity sha512-Lh5dyKIaAMM39VIwrgYUQrWFAeTJ9SJZ+wZkHlZdDKCIxbC0/7qFqpSUI55LBo3lPrjn2ZodW0VMtxRpHZx1Jg==
+"@tinacms/mdx@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@tinacms/mdx/-/mdx-2.0.3.tgz#654edd752f0d52dda58946a2873151510836207a"
+  integrity sha512-ObpXp2BqB4k4e6I/WU2ZEEMs8moXXzmpedoDKUVpQt0H0tkWuepF//hEnMGmXE+pPeWETK0qRl5ZAAMj9oygIg==
   dependencies:
-    "@tinacms/schema-tools" "2.2.0"
+    "@tinacms/schema-tools" "2.3.0"
     acorn "8.8.2"
     ccount "2.0.1"
     estree-util-is-identifier-name "2.1.0"
@@ -3172,10 +3172,10 @@
     url-pattern "^1.0.3"
     zod "^3.24.2"
 
-"@tinacms/schema-tools@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-2.2.0.tgz#5f6e2f4b3f973210ba29b9dfbbd5e7458d624e12"
-  integrity sha512-jV8iI6w0bBGNZNFJ/2DN34/oUyNxzaokflZy+5wIM2zrkIXbDKwjliKERvIr7qx0QLL+G3YGtV85yvS1Omfz9A==
+"@tinacms/schema-tools@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-2.3.0.tgz#e272a56941a8c59e33cedc47efced7d24c3c114c"
+  integrity sha512-1xNDZ9r17FM3eHNOEOx9LmE2Rh/GxSLS1rzYztM5NUV4WD+CRS+MZ2neEHFw4uBjapzfPEWR4lvBal2AKb9JNQ==
   dependencies:
     picomatch-browser "2.2.6"
     url-pattern "^1.0.3"
@@ -3193,13 +3193,13 @@
     sqlite-level "^1.2.1"
     stopword "^3.1.4"
 
-"@tinacms/search@1.1.9":
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/@tinacms/search/-/search-1.1.9.tgz#ee08dc587a28411d7303f99bb3960d84feac21b8"
-  integrity sha512-QUQsS3Jpw5iLeSiZfpFxWWze4GKHGk9oFXRJEUfczjQ1jH2UfhL5ch2omWeTdHfgmTQV8k8kblhKDcmfD6pBtQ==
+"@tinacms/search@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@tinacms/search/-/search-1.2.0.tgz#96cc88b03f80185f830ef544f294c83d3de655e3"
+  integrity sha512-DWqqVrb7SrG3Ckjgsx88HE7bWzrJnrfSg7AP7+uvGWDKjzA7LtwDi2QTLRJxNrvp/1CoZdlzXM3iYMX15sGAQA==
   dependencies:
-    "@tinacms/graphql" "2.0.5"
-    "@tinacms/schema-tools" "2.2.0"
+    "@tinacms/graphql" "2.0.6"
+    "@tinacms/schema-tools" "2.3.0"
     memory-level "^1.0.0"
     search-index "4.0.0"
     sqlite-level "^1.2.1"
@@ -10272,10 +10272,10 @@ tinacms@2.7.6:
     yup "^1.6.1"
     zod "^3.24.2"
 
-tinacms@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-3.2.0.tgz#e7f99f7c5eda4274699d2c351af657a11045df9b"
-  integrity sha512-0iNHeJfT11uaQ4JHWkewnW+6wkG5rXbLJ6dG/bjDXDdW2mc8B2WjuBO5EBrZNwnrJyHjGUzU7GBy7rwU5ehd/Q==
+tinacms@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-3.3.0.tgz#5f5dd8f6d4bc6f4f0c1ac6e478d55a80b84e5856"
+  integrity sha512-COsDT8KEv8w7ULflAoBU+friJ1q+7++Dt295v6iX2Y1RrNgPcaYVVX4WAdGynRYE8XQNsWzPGhTBEzEzTYWjeg==
   dependencies:
     "@ariakit/react" "^0.4.15"
     "@dnd-kit/core" "^6.1.0"
@@ -10297,9 +10297,9 @@ tinacms@^3.2.0:
     "@radix-ui/react-toolbar" "^1.1.2"
     "@radix-ui/react-tooltip" "^1.2.8"
     "@react-hook/window-size" "^3.1.1"
-    "@tinacms/mdx" "2.0.2"
-    "@tinacms/schema-tools" "2.2.0"
-    "@tinacms/search" "1.1.9"
+    "@tinacms/mdx" "2.0.3"
+    "@tinacms/schema-tools" "2.3.0"
+    "@tinacms/search" "1.2.0"
     "@udecode/cmdk" "^0.2.1"
     "@udecode/cn" "^48.0.3"
     "@udecode/plate" "^48.0.3"
